@@ -9,11 +9,11 @@ References
 Procedure
 ---------
 1. Follow Sony Dev Guide up to 4.3
-2. cd ~/android/devices/sony
-   1. git clone https://github.com/sonyxperiadev/device-sony-tama.git tama
-   2. git clone https://github.com/sonyxperiadev/device-sony-apollo.git apollo
+2. `cd ~/android/devices/sony`
+   1. `git clone https://github.com/sonyxperiadev/device-sony-tama.git tama`
+   2. `git clone https://github.com/sonyxperiadev/device-sony-apollo.git apollo`
 3. "ninja: error: 'kernel/sony/msm/arch/arm64/configs/aosp_tama_apollo_defconfig', needed by '/home/anna/android_8-0-0/out/target/product/apollo/obj/KERNEL_OBJ/.config', missing and no known rule to make it"
 4. Pull config from current device:
-   * cat /boot/config-`uname -r`   OR
-   * adb pull /proc/config.gz  for current Kernel configuration options
+   * `cat /boot/config-&#96;uname -r&#96;`   OR
+   * `adb pull /proc/config.gz`  for current Kernel configuration options
 5. Placeholder
