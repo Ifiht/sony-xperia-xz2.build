@@ -16,4 +16,4 @@ Procedure
 4. Pull config from current device:
    * ``cat /boot/config-`uname -r` ``   OR
    * `adb pull /proc/config.gz`  for current Kernel configuration options
-5. Placeholder
+5. Android 8.0.0, Linux kernel 4.9.65-perf+
